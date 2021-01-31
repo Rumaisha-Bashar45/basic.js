@@ -37,7 +37,7 @@
         }
         else if(n>10&&n<=20){
 
-            var price= n*80;
+            var price= n*180;
         }
         else if(n>20){
             var price= n*50;
@@ -59,7 +59,7 @@
     var max= names[0];
     for(var j=0;j<names.length;j++){
         var largeName= names[j];
-        if(max<largeName){
+        if(max.length<largeName.length){
             max= largeName;
         }
         
